@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="registrationStyle.css">
+</head>
+<body>
+    <header>
+        <h1>Registration Form</h1>
+    </header>
+    <div>
+        
+        <form action="" method="get">
+            <fieldset class="persional">
+                <legend >Persional Information</legend>
+                <br><br>
+
+            Name : <input type="text" name="text" required>
+            <br>
+            <br>
+            Email : <input type="email" name="email" required>
+            <br>
+            <br>
+            Age : <input type="number" name="number" required>
+            <br><br>
+            10th Mode <select name="mode" id="mode" required>
+                <option value="">Mode of Education</option>
+                <option value="">CBSE</option>
+                <option value="">State Board</option>
+                <option value="">ICSE</option>
+            </select>
+
+            <br><br>
+            10th Marks <input type="number" name="mark" required>
+            <br><br>
+            12th Mode <select name="mode" id="mode" >
+                <option value="">Mode of Education</option>
+                <option value="">CBSE</option>
+                <option value="">State Board</option>
+                <option value="">ICSE</option>
+                </select>
+            <br><br>
+            12th Marks <input type="number" name="mark" required>
+            <br><br>
+            Degree Marks <input type="number">
+            <br>
+            <br>
+            Carrer<select name="Course" id="course" required>
+                <option value="">select your Carrer</option>
+                <option value="">Java Developer</option>
+                <option value="">Python Developer</option>
+                <option value="">UI/UX Developer</option>
+                <option value="">DevOps Enggineering</option>
+            </select>
+
+            <br>
+            <br>
+            Gender :
+            <br>
+            <br>
+                <input type="radio" name="gender" required> Male
+                <input type="radio" name="gender" required> female 
+                <input type="radio" name="gender" required> Iprefer not to answer
+            <br>
+            <br>
+            What is ypr preferred mode of study
+            <br>
+            <br>
+            <input type="checkbox" name="checkbox" required>Online
+            <input type="checkbox"name="checkbox" required>Offline
+            <input type="checkbox" name="checkbox" required>Hybrid
+            <br><br>
+            Any Comment or suggestion ?
+            <textarea name="textarea" id="" cols="100" rows="10"></textarea>
+        
+            </fieldset>
+            <br><br>
+            <fieldset class="persional">
+                <legend>Family Details</legend>
+                <br><br>
+               <div>
+                Father Name :<input type="text">
+                <br><br>
+                Father Occupation :<input type="text">
+                <br><br>
+                Mother Name :<input type="text">
+                <br><br>
+                Father Occupation :<input type="text">
+                <br><br>
+                Bro/Sis :<input type="number">
+                <br><br>
+                Address :<input type="text">
+                <br><br>
+                Pincode : <input type="number">
+                <br><br>
+               </div>
+            </fieldset>
+            <br><br>
+            <fieldset class="payment">
+                <legend class="legend-pay">Payment Details</legend>
+                <br><br>
+                <div>
+                    Card Type :
+        
+                    <select name="card_type" id="card_type" required>
+                        <option value="">--select a card--</option>
+                        <option value="visa">Debit Card</option>
+                        <option value="credit">Credit Card</option>
+                        <option value="upi">UPI</option>
+                    </select>
+                </div>
+                <br>
+                <div>
+                    Card Number : <input type="number" name ="card_number" id="card_number" required>
+                </div>
+                <br>
+                <div>
+                    Expiration Date : <input type="date" name="date" id="date" required>
+                </div>
+                <br>
+                <div>
+                    CVV : <input type="password" name="cvv" id="cvv" required>
+        
+                </div>
+                <br><br>
+                <input type="submit" value="PayNow">
+                <input type="reset" value="Reset">
+            </fieldset>
+        </form>
+    </div>
+    
+</body>
+</html>
